@@ -1,0 +1,285 @@
+.fzMainPage {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.fzMain {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.fzMain__cloud {
+  position: absolute;
+  z-index: -1;
+}
+
+.fzMain__cloud--1 {
+  left: 10px;
+  top: -20px;
+}
+
+.fzMain__cloud--2 {
+  right: -102px;
+  top: -52px;
+}
+
+.fzMain__cloud--3 {
+  right: 133px;
+  top: 119px;
+}
+
+.fzMain__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fzMain__top-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.fzMain__top-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 16px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+@media screen and (max-width: 340px) {
+  .fzMain__top-box {
+    flex-direction: column;
+  }
+}
+
+.fzMain__top-box-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fzMain__top-box-content-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fzMain__top-box-content-1-value {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  text-shadow: none;
+}
+
+.fzMain__top-box-content-divider {
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 25px;
+}
+
+.fzMain__top-box-content-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fzMain__top-box-content-2-value {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fzMain__top-box-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(28, 55, 88, 0.7);
+  text-shadow: none;
+}
+
+/* INVITE */
+.fzMain__commonBox {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-shadow: none;
+  color: #1C3758;
+  align-items: flex-start;
+  padding: 15px 15px 20px 15px;
+  margin-bottom: 15px;
+}
+
+.fzMain__commonBox--lastInSection {
+  margin-bottom: 40px;
+}
+
+.fzMain__commonBox-top {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.fzMain__commonBox-top-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fzMain__commonBox-top-info-title {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.fzMain__commonBox-top-info-content {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  flex-wrap: wrap;
+}
+
+.fzMain__commonBox-top-info-content-badge {
+  background-color: #FFDD09;
+  padding: 2px 10px;
+  color: black;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.fzMain__commonBox-button {
+  padding: 10px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(28, 55, 88, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Rubik', sans-serif;
+  margin: 0 auto;
+}
+
+.fzMain__commonBox-footerText {
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(28, 55, 88, 0.7);
+}
+
+.fzMain__listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+
+.fzMain__listBox-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: space-between;
+  text-shadow: none;
+  color: #1C3758;
+  width: 100%;
+}
+
+.fzMain__listBox-item-info-avatar {
+  padding: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 64px;
+  width: 100%;
+}
+
+.fzMain__listBox-item-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fzMain__listBox-item-info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fzMain__listBox-item-info-text-name {
+  font-weight: 500;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.fzMain__listBox-item-info-text-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fzMain__listBox-item-info-text-title-name {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(28, 55, 88, 0.5);
+}
+
+.fzMain__listBox-item-stat {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fzMain__listBox-item-stat-main {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-end;
+}
+
+.fzMain__listBox-item-stat-main-yellow {
+  background-color: #FFDD09;
+  padding: 4px 10px;
+  color: black;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.fzMain__listBox-item-stat-main-transparent {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 4px 10px;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.fzMain__inviteBtn {
+  height: 56px;
+  width: 100%;
+  margin-top: 15px;
+  background: linear-gradient(180deg,
+  #6BD349 0%,
+  #66B34D 100%);
+  transition: all .2s ease-in-out;
+}
+
+.fzMain__inviteBtn:active {
+  transform: scale(0.95);
+}

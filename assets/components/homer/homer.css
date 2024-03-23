@@ -1,0 +1,12 @@
+.homer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.homer__img {
+  max-width: 100%;
+  transition: all .1s ease-in-out;
+  opacity: 1;
+}

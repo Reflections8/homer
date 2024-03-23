@@ -1,0 +1,70 @@
+.fzDetails {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.fzDetails__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.fzDetails__listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 25px 15px 15px 15px;
+  text-shadow: none;
+}
+
+.fzDetails__listBox-titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(28, 55, 88, 0.7);
+  width: 100%;
+}
+
+.fzDetails__listBox-list {
+  width: 100%;
+}
+
+.fzDetails__listBox-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.fzDetails__listBox-list-item:last-of-type {
+  border-bottom: none;
+}
+
+.fzDetails__listBox-list-item-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fzDetails__listBox-list-item-title-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1C3758;
+}
+
+.fzDetails__listBox-list-item-value {
+  background-color: #FFDD09;
+  padding: 4px 10px;
+  color: black;
+  border-radius: 12px;
+  font-weight: 500;
+}
