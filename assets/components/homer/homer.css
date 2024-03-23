@@ -6,7 +6,7 @@
 }
 
 .homer__img {
-  max-width: 100%;
+  max-width: 85%;
   transition: all .1s ease-in-out;
   opacity: 1;
 }
