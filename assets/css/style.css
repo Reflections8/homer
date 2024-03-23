@@ -3,6 +3,7 @@
 @import "../components/homer/homer.css";
 @import "../components/scale/scale.css";
 @import "../components/grass/grass.css";
+@import "fonts.css";
 
 /* PAGES */
 @import "../pages/loader/loader.css";
