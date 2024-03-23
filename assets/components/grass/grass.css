@@ -22,6 +22,16 @@
   bottom: 100%;
   left: 1170px;
 }
+.grass__top--5 {
+  position: absolute;
+  bottom: 100%;
+  left: 1560px;
+}
+.grass__top--6 {
+  position: absolute;
+  bottom: 100%;
+  left: 1950px;
+}
 
 .grass__content {
   margin-top: auto;
