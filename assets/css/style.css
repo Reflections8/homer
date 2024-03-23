@@ -23,7 +23,7 @@ body {
   margin: 0;
   background: linear-gradient(180deg, rgba(73,177,228,1) 0%, rgba(198,227,248,1) 82%);
   color: #1C3758;
-  min-height: 100vh;
+  min-height: calc(100vh - 54px);
   display: flex;
   flex-direction: column;
 }
