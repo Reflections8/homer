@@ -77,4 +77,22 @@ document.addEventListener('DOMContentLoaded', () => {
       textElement.parentNode.removeChild(textElement);
     });
   })
+
+
+  const targetNode = document.querySelector('[data-page="root"]');
+
+  const observer = new MutationObserver((mutationsList, observer) => {
+    for (let mutation of mutationsList) {
+      if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+        const hasHiddenClass = targetNode.classList.contains('page--Hidden');
+
+        document.body.style.overflowY = hasHiddenClass ? 'hidden' : 'auto';
+      }
+    }
+  });
+
+  const config = { attributes: true, attributeFilter: ['class'] };
+
+  observer.observe(targetNode, config);
+
 })
