@@ -9,7 +9,7 @@
   max-width: 85%;
   transition: all .1s ease-in-out;
   opacity: 1;
-  height: 27vh;
+  height: calc(33vh - 57px);
   max-height: 305px;
   object-fit: cover;
 }

@@ -15,8 +15,9 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
-  max-width: 270px;
+  max-width: fit-content;
   width: 100%;
+  text-align: center;
 }
 
 .mainScore__top-icon {
@@ -28,9 +29,6 @@
   font-size: 48px;
   font-weight: 700;
 }
-
-
-
 
 
 .mainScore__bottom {
@@ -45,4 +43,16 @@
 
 .mainScore__bottom-button-icon--arrowRight {
   margin-top: 2px;
+}
+
+@media screen and (max-width: 470px) {
+  .mainScore__top-value {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .mainScore__top-value {
+    font-size: 24px;
+  }
 }
